@@ -675,7 +675,7 @@ Type: `bool`
 
 ### `Gateway.PathPrefixes`
 
-**DEPRECATED:** see [kubo#7702](https://github.com/ipfs/kubo/issues/7702)
+**DEPRECATED:** see [kubo#7702](https://github.com/uss2022sayahi/kubo/issues/7702)
 
 <!--
 An array of acceptable url paths that a client can specify in X-Ipfs-Path-Prefix

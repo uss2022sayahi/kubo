@@ -7,8 +7,8 @@ import (
 	filestore "github.com/ipfs/go-filestore"
 	keystore "github.com/ipfs/go-ipfs-keystore"
 
-	config "github.com/ipfs/kubo/config"
 	ma "github.com/multiformats/go-multiaddr"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 var errTODO = errors.New("TODO: mock repo")

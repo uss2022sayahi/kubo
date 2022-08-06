@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/gc"
-	"github.com/ipfs/kubo/repo"
+	"github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/gc"
+	"github.com/uss2022sayahi/kubo/repo"
 
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-blockservice"
@@ -24,7 +24,7 @@ import (
 	pi "github.com/ipfs/go-ipfs-posinfo"
 	dag "github.com/ipfs/go-merkledag"
 	coreiface "github.com/ipfs/interface-go-ipfs-core"
-	config "github.com/ipfs/kubo/config"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 const testPeerID = "QmTFauExutTsy4XP6JbMFcw2Wa9645HJt2bTqL6qYDCKfe"

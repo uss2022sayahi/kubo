@@ -4,7 +4,7 @@ export GO111MODULE=on
 
 
 # pre-definitions
-GOCC ?= go
+GOCC ?= go1.17.13
 GOTAGS ?=
 GOTFLAGS ?=
 
@@ -26,10 +26,10 @@ TEST_GO :=
 TEST_GO_BUILD :=
 CHECK_GO :=
 
-go-pkg-name=$(shell $(GOCC) list $(go-tags) github.com/ipfs/kubo/$(1))
+go-pkg-name=$(shell $(GOCC) list $(go-tags) github.com/uss2022sayahi/kubo/$(1))
 go-main-name=$(notdir $(call go-pkg-name,$(1)))$(?exe)
 go-curr-pkg-tgt=$(d)/$(call go-main-name,$(d))
-go-pkgs=$(shell $(GOCC) list github.com/ipfs/kubo/...)
+go-pkgs=$(shell $(GOCC) list github.com/uss2022sayahi/kubo/...)
 
 go-tags=$(if $(GOTAGS), -tags="$(call join-with,$(space),$(GOTAGS))")
 go-flags-with-tags=$(GOFLAGS)$(go-tags)

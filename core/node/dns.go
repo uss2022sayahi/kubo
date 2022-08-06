@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	config "github.com/ipfs/kubo/config"
 	doh "github.com/libp2p/go-doh-resolver"
 	madns "github.com/multiformats/go-multiaddr-dns"
+	config "github.com/uss2022sayahi/kubo/config"
 
 	"github.com/miekg/dns"
 )

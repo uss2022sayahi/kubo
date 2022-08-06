@@ -9,12 +9,12 @@ import (
 	blockstore "github.com/ipfs/go-ipfs-blockstore"
 	util "github.com/ipfs/go-ipfs-util"
 	"github.com/ipfs/go-log"
-	"github.com/ipfs/kubo/config"
 	"github.com/libp2p/go-libp2p-core/peer"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
+	"github.com/uss2022sayahi/kubo/config"
 
-	"github.com/ipfs/kubo/core/node/libp2p"
-	"github.com/ipfs/kubo/p2p"
+	"github.com/uss2022sayahi/kubo/core/node/libp2p"
+	"github.com/uss2022sayahi/kubo/p2p"
 
 	offline "github.com/ipfs/go-ipfs-exchange-offline"
 	uio "github.com/ipfs/go-unixfs/io"

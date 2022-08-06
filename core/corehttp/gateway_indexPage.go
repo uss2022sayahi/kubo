@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	ipfspath "github.com/ipfs/go-path"
-	"github.com/ipfs/kubo/assets"
+	"github.com/uss2022sayahi/kubo/assets"
 )
 
 // structs for directory listing

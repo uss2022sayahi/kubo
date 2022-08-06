@@ -5,8 +5,8 @@
 package readonly
 
 import (
-	core "github.com/ipfs/kubo/core"
-	mount "github.com/ipfs/kubo/fuse/mount"
+	core "github.com/uss2022sayahi/kubo/core"
+	mount "github.com/uss2022sayahi/kubo/fuse/mount"
 )
 
 // Mount mounts IPFS at a given location, and returns a mount.Mount instance.

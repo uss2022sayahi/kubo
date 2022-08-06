@@ -5,8 +5,8 @@
 ![kubo, an IPFS node in Go](https://ipfs.io/ipfs/bafykbzacecaesuqmivkauix25v6i6xxxsvsrtxknhgb5zak3xxsg2nb4dhs2u/ipfs.go.png)
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square&cacheSeconds=3600)](https://protocol.ai)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square&cacheSeconds=3600)](https://godoc.org/github.com/ipfs/kubo)
-[![CircleCI](https://img.shields.io/circleci/build/github/ipfs/kubo?style=flat-square&cacheSeconds=3600)](https://circleci.com/gh/ipfs/kubo)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square&cacheSeconds=3600)](https://godoc.org/github.com/uss2022sayahi/kubo)
+[![CircleCI](https://img.shields.io/circleci/build/github/uss2022sayahi/kubo?style=flat-square&cacheSeconds=3600)](https://circleci.com/gh/uss2022sayahi/kubo)
 
 ## What is Kubo?
 
@@ -27,7 +27,7 @@ IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas fro
 For more info see: https://docs.ipfs.io/introduction/overview/
 
 Before opening an issue, consider using one of the following locations to ensure you are opening your thread in the right place:
-  - kubo (previously named go-ipfs) _implementation_ bugs in [this repo](https://github.com/ipfs/kubo/issues).
+  - kubo (previously named go-ipfs) _implementation_ bugs in [this repo](https://github.com/uss2022sayahi/kubo/issues).
   - Documentation issues in [ipfs/docs issues](https://github.com/ipfs/ipfs-docs/issues).
   - IPFS _design_ in [ipfs/specs issues](https://github.com/ipfs/specs/issues).
   - Exploration of new ideas in [ipfs/notes issues](https://github.com/ipfs/notes/issues).
@@ -38,7 +38,7 @@ Before opening an issue, consider using one of the following locations to ensure
 
 ## Next milestones
 
-[Milestones on GitHub](https://github.com/ipfs/kubo/milestones)
+[Milestones on GitHub](https://github.com/uss2022sayahi/kubo/milestones)
 
 
 ## Table of Contents
@@ -112,7 +112,7 @@ If your system is resource-constrained, we recommend:
 
 [![Docker Image Version (legacy name)](https://img.shields.io/docker/v/ipfs/go-ipfs?color=blue&label=go-ipfs%20docker%20image&logo=docker&sort=semver&style=flat-square&cacheSeconds=3600)](https://hub.docker.com/r/ipfs/go-ipfs/)
 <!-- TODO: replace with kubo after we have minimum set of images after kubo 0.14 (stable semver release, 'latest' and 'release' docker tags)
-[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/ipfs/kubo?color=blue&label=kubo%20docker%20image&logo=docker&sort=semver&style=flat-square&cacheSeconds=3600)](https://hub.docker.com/r/ipfs/kubo/)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/uss2022sayahi/kubo?color=blue&label=kubo%20docker%20image&logo=docker&sort=semver&style=flat-square&cacheSeconds=3600)](https://hub.docker.com/r/uss2022sayahi/kubo/)
 -->
 
 More info on how to run kubo (go-ipfs) inside Docker can be found [here](https://docs.ipfs.io/how-to/run-ipfs-inside-docker/).
@@ -244,7 +244,7 @@ PS> scoop install go-ipfs
 
 ### Install prebuilt binaries
 
-[![dist.ipfs.io Downloads](https://img.shields.io/github/v/release/ipfs/kubo?label=dist.ipfs.io&logo=ipfs&style=flat-square&cacheSeconds=3600)](https://dweb.link/ipns/dist.ipfs.io#kubo)
+[![dist.ipfs.io Downloads](https://img.shields.io/github/v/release/uss2022sayahi/kubo?label=dist.ipfs.io&logo=ipfs&style=flat-square&cacheSeconds=3600)](https://dweb.link/ipns/dist.ipfs.io#kubo)
 
 From there:
 - Click the blue "Download kubo" on the right side of the page.
@@ -252,12 +252,12 @@ From there:
 - Move kubo (`ipfs`) to your path (`install.sh` can do it for you).
 
 If you are unable to access [dist.ipfs.io](https://dist.ipfs.io#kubo), you can also download kubo (go-ipfs) from:
-- this project's GitHub [releases](https://github.com/ipfs/kubo/releases/latest) page
+- this project's GitHub [releases](https://github.com/uss2022sayahi/kubo/releases/latest) page
 - `/ipns/dist.ipfs.io` at [dweb.link](https://dweb.link/ipns/dist.ipfs.io#kubo) gateway
 
 ### Build from Source
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ipfs/kubo?label=Requires%20Go&logo=go&style=flat-square&cacheSeconds=3600)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/uss2022sayahi/kubo?label=Requires%20Go&logo=go&style=flat-square&cacheSeconds=3600)
 
 kubo's build system requires Go and some standard POSIX build tools:
 
@@ -269,7 +269,7 @@ To build without GCC, build with `CGO_ENABLED=0` (e.g., `make build CGO_ENABLED=
 
 #### Install Go
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/ipfs/kubo?label=Requires%20Go&logo=go&style=flat-square&cacheSeconds=3600)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/uss2022sayahi/kubo?label=Requires%20Go&logo=go&style=flat-square&cacheSeconds=3600)
 
 If you need to update: [Download latest version of Go](https://golang.org/dl/).
 
@@ -285,7 +285,7 @@ export PATH=$PATH:$GOPATH/bin
 #### Download and Compile IPFS
 
 ```
-$ git clone https://github.com/ipfs/kubo.git
+$ git clone https://github.com/uss2022sayahi/kubo.git
 
 $ cd go-ipfs
 $ make install
@@ -322,10 +322,10 @@ Note: OpenSSL requires CGO support and, by default, CGO is disabled when cross-c
 dependencies as well.
 - _WARNING_: Older versions of OSX FUSE (for Mac OS X) can cause kernel panics when mounting!-
   We strongly recommend you use the [latest version of OSX FUSE](http://osxfuse.github.io/).
-  (See https://github.com/ipfs/kubo/issues/177)
+  (See https://github.com/uss2022sayahi/kubo/issues/177)
 - Read [docs/fuse.md](docs/fuse.md) for more details on setting up FUSE (so that you can mount the filesystem).
 - Shell command completions can be generated with one of the `ipfs commands completion` subcommands. Read [docs/command-completion.md](docs/command-completion.md) to learn more.
-- See the [misc folder](https://github.com/ipfs/kubo/tree/master/misc) for how to connect IPFS to systemd or whatever init system your distro uses.
+- See the [misc folder](https://github.com/uss2022sayahi/kubo/tree/master/misc) for how to connect IPFS to systemd or whatever init system your distro uses.
 
 ### Updating
 
@@ -391,7 +391,7 @@ If you have previously installed IPFS before and you are running into problems g
 
 Please direct general questions and help requests to our [forum](https://discuss.ipfs.io) or our IRC channel (freenode #ipfs).
 
-If you believe you've found a bug, check the [issues list](https://github.com/ipfs/kubo/issues) and, if you don't see your problem there, either come talk to us on [Matrix chat](https://docs.ipfs.io/community/chat/), or file an issue of your own!
+If you believe you've found a bug, check the [issues list](https://github.com/uss2022sayahi/kubo/issues) and, if you don't see your problem there, either come talk to us on [Matrix chat](https://docs.ipfs.io/community/chat/), or file an issue of your own!
 
 ## Packages
 
@@ -419,7 +419,7 @@ Listing of the main packages used in the IPFS ecosystem. There are also three sp
 | **Exchange** |
 | [`go-ipfs-exchange-interface`](//github.com/ipfs/go-ipfs-exchange-interface) | [![Travis CI](https://flat.badgen.net/travis/ipfs/go-ipfs-exchange-interface/master)](https://travis-ci.com/ipfs/go-ipfs-exchange-interface) | [![codecov](https://codecov.io/gh/ipfs/go-ipfs-exchange-interface/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/ipfs/go-ipfs-exchange-interface) | exchange service interface |
 | [`go-ipfs-exchange-offline`](//github.com/ipfs/go-ipfs-exchange-offline) | [![Travis CI](https://flat.badgen.net/travis/ipfs/go-ipfs-exchange-offline/master)](https://travis-ci.com/ipfs/go-ipfs-exchange-offline) | [![codecov](https://codecov.io/gh/ipfs/go-ipfs-exchange-offline/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/ipfs/go-ipfs-exchange-offline) | (dummy) offline implementation of the exchange service |
-| [`go-bitswap`](//github.com/ipfs/go-bitswap) | [![Travis CI](https://flat.badgen.net/travis/ipfs/go-bitswap/master)](https://travis-ci.com/ipfs/go-bitswap) | [![codecov](https://codecov.io/gh/ipfs/go-bitswap/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/ipfs/go-bitswap) | bitswap protocol implementation |
+| [`go-bitswap`](//github.com/uss2022sayahi/go-bitswap) | [![Travis CI](https://flat.badgen.net/travis/uss2022sayahi/go-bitswap/master)](https://travis-ci.com/uss2022sayahi/go-bitswap) | [![codecov](https://codecov.io/gh/uss2022sayahi/go-bitswap/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/uss2022sayahi/go-bitswap) | bitswap protocol implementation |
 | [`go-blockservice`](//github.com/ipfs/go-blockservice) | [![Travis CI](https://flat.badgen.net/travis/ipfs/go-blockservice/master)](https://travis-ci.com/ipfs/go-blockservice) | [![codecov](https://codecov.io/gh/ipfs/go-blockservice/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/ipfs/go-blockservice) | service that plugs a blockstore and an exchange together |
 | **Datastores** |
 | [`go-datastore`](//github.com/ipfs/go-datastore) | [![Travis CI](https://flat.badgen.net/travis/ipfs/go-datastore/master)](https://travis-ci.com/ipfs/go-datastore) | [![codecov](https://codecov.io/gh/ipfs/go-datastore/branch/master/graph/badge.svg?style=flat-square)](https://codecov.io/gh/ipfs/go-datastore) | datastore interfaces, adapters, and basic implementations |
@@ -464,14 +464,14 @@ For brevity, we've omitted most go-libp2p, go-ipld, and go-multiformats packages
 
 Some places to get you started on the codebase:
 
-- Main file: [./cmd/ipfs/main.go](https://github.com/ipfs/kubo/blob/master/cmd/ipfs/main.go)
-- CLI Commands: [./core/commands/](https://github.com/ipfs/kubo/tree/master/core/commands)
-- Bitswap (the data trading engine): [go-bitswap](https://github.com/ipfs/go-bitswap)
+- Main file: [./cmd/ipfs/main.go](https://github.com/uss2022sayahi/kubo/blob/master/cmd/ipfs/main.go)
+- CLI Commands: [./core/commands/](https://github.com/uss2022sayahi/kubo/tree/master/core/commands)
+- Bitswap (the data trading engine): [go-bitswap](https://github.com/uss2022sayahi/go-bitswap)
 - libp2p
   - libp2p: https://github.com/libp2p/go-libp2p
   - DHT: https://github.com/libp2p/go-libp2p-kad-dht
   - PubSub: https://github.com/libp2p/go-libp2p-pubsub
-- [IPFS : The `Add` command demystified](https://github.com/ipfs/kubo/tree/master/docs/add-code-flow.md)
+- [IPFS : The `Add` command demystified](https://github.com/uss2022sayahi/kubo/tree/master/docs/add-code-flow.md)
 
 ### Map of Implemented Subsystems
 **WIP**: This is a high-level architecture diagram of the various sub-systems of this specific implementation. To be updated with how they interact. Anyone who has suggestions is welcome to comment [here](https://docs.google.com/drawings/d/1OVpBT2q-NtSJqlPX3buvjYhOnWfdzb85YEsM_njesME/edit) on how we can improve this!
@@ -513,5 +513,5 @@ Please reach out to us in one [chat](https://docs.ipfs.io/community/chat/) rooms
 
 This project is dual-licensed under Apache 2.0 and MIT terms:
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](https://github.com/ipfs/kubo/blob/master/LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-- MIT license ([LICENSE-MIT](https://github.com/ipfs/kubo/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT)
+- Apache License, Version 2.0, ([LICENSE-APACHE](https://github.com/uss2022sayahi/kubo/blob/master/LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+- MIT license ([LICENSE-MIT](https://github.com/uss2022sayahi/kubo/blob/master/LICENSE-MIT) or http://opensource.org/licenses/MIT)

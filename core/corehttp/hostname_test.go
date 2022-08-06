@@ -9,8 +9,8 @@ import (
 	cid "github.com/ipfs/go-cid"
 	files "github.com/ipfs/go-ipfs-files"
 	path "github.com/ipfs/go-path"
-	config "github.com/ipfs/kubo/config"
-	coreapi "github.com/ipfs/kubo/core/coreapi"
+	config "github.com/uss2022sayahi/kubo/config"
+	coreapi "github.com/uss2022sayahi/kubo/core/coreapi"
 )
 
 func TestToSubdomainURL(t *testing.T) {

@@ -13,15 +13,15 @@ import (
 
 	files "github.com/ipfs/go-ipfs-files"
 	logging "github.com/ipfs/go-log"
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/bootstrap"
-	"github.com/ipfs/kubo/core/coreapi"
-	mock "github.com/ipfs/kubo/core/mock"
-	"github.com/ipfs/kubo/thirdparty/unit"
 	"github.com/jbenet/go-random"
 	"github.com/libp2p/go-libp2p-core/peer"
 	testutil "github.com/libp2p/go-libp2p-testing/net"
 	mocknet "github.com/libp2p/go-libp2p/p2p/net/mock"
+	"github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/core/bootstrap"
+	"github.com/uss2022sayahi/kubo/core/coreapi"
+	mock "github.com/uss2022sayahi/kubo/core/mock"
+	"github.com/uss2022sayahi/kubo/thirdparty/unit"
 )
 
 var log = logging.Logger("epictest")

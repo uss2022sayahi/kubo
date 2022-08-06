@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	version "github.com/ipfs/kubo"
+	version "github.com/uss2022sayahi/kubo"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/jaeger"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

@@ -12,11 +12,11 @@ import (
 	coreiface "github.com/ipfs/interface-go-ipfs-core"
 	"github.com/ipfs/interface-go-ipfs-core/options"
 	ipath "github.com/ipfs/interface-go-ipfs-core/path"
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations/ipfsfetcher"
 	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/core/coreapi"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations/ipfsfetcher"
 )
 
 // addMigrations adds any migration downloaded by the fetcher to the IPFS node
@@ -36,7 +36,7 @@ func addMigrations(ctx context.Context, node *core.IpfsNode, fetcher migrations.
 			if err != nil {
 				return err
 			}
-		case *migrations.HttpFetcher, *migrations.RetryFetcher: // https://github.com/ipfs/kubo/issues/8780
+		case *migrations.HttpFetcher, *migrations.RetryFetcher: // https://github.com/uss2022sayahi/kubo/issues/8780
 			// Add the downloaded migration files directly
 			if migrations.DownloadDirectory != "" {
 				var paths []string

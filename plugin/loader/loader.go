@@ -8,14 +8,14 @@ import (
 	"runtime"
 	"strings"
 
-	config "github.com/ipfs/kubo/config"
-	cserialize "github.com/ipfs/kubo/config/serialize"
 	"github.com/ipld/go-ipld-prime/multicodec"
+	config "github.com/uss2022sayahi/kubo/config"
+	cserialize "github.com/uss2022sayahi/kubo/config/serialize"
 
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
-	plugin "github.com/ipfs/kubo/plugin"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/core/coreapi"
+	plugin "github.com/uss2022sayahi/kubo/plugin"
+	fsrepo "github.com/uss2022sayahi/kubo/repo/fsrepo"
 
 	logging "github.com/ipfs/go-log"
 	opentracing "github.com/opentracing/opentracing-go"
@@ -79,12 +79,12 @@ func (ls loaderState) String() string {
 // PluginLoader keeps track of loaded plugins.
 //
 // To use:
-// 1. Load any desired plugins with Load and LoadDirectory. Preloaded plugins
-//    will automatically be loaded.
-// 2. Call Initialize to run all initialization logic.
-// 3. Call Inject to register the plugins.
-// 4. Optionally call Start to start plugins.
-// 5. Call Close to close all plugins.
+//  1. Load any desired plugins with Load and LoadDirectory. Preloaded plugins
+//     will automatically be loaded.
+//  2. Call Initialize to run all initialization logic.
+//  3. Call Inject to register the plugins.
+//  4. Optionally call Start to start plugins.
+//  5. Call Close to close all plugins.
 type PluginLoader struct {
 	state   loaderState
 	plugins map[string]plugin.Plugin

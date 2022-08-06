@@ -8,8 +8,8 @@ import (
 
 	files "github.com/ipfs/go-ipfs-files"
 
-	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/core/commands/cmdutils"
+	cmdenv "github.com/uss2022sayahi/kubo/core/commands/cmdenv"
+	"github.com/uss2022sayahi/kubo/core/commands/cmdutils"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	options "github.com/ipfs/interface-go-ipfs-core/options"

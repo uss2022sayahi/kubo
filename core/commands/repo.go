@@ -11,12 +11,12 @@ import (
 	"sync"
 	"text/tabwriter"
 
-	oldcmds "github.com/ipfs/kubo/commands"
-	cmdenv "github.com/ipfs/kubo/core/commands/cmdenv"
-	corerepo "github.com/ipfs/kubo/core/corerepo"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations/ipfsfetcher"
+	oldcmds "github.com/uss2022sayahi/kubo/commands"
+	cmdenv "github.com/uss2022sayahi/kubo/core/commands/cmdenv"
+	corerepo "github.com/uss2022sayahi/kubo/core/corerepo"
+	fsrepo "github.com/uss2022sayahi/kubo/repo/fsrepo"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations/ipfsfetcher"
 
 	humanize "github.com/dustin/go-humanize"
 	cid "github.com/ipfs/go-cid"
@@ -227,7 +227,7 @@ Version         string The repo version.
 }
 
 var repoFsckCmd = &cmds.Command{
-	Status: cmds.Deprecated, // https://github.com/ipfs/kubo/issues/6435
+	Status: cmds.Deprecated, // https://github.com/uss2022sayahi/kubo/issues/6435
 	Helptext: cmds.HelpText{
 		Tagline: "Remove repo lockfiles.",
 		ShortDescription: `

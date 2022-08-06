@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/gc"
-	"github.com/ipfs/kubo/repo"
+	"github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/gc"
+	"github.com/uss2022sayahi/kubo/repo"
 
 	"github.com/dustin/go-humanize"
 	"github.com/ipfs/go-cid"

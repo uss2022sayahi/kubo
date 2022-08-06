@@ -15,22 +15,22 @@ import (
 
 	multierror "github.com/hashicorp/go-multierror"
 
-	version "github.com/ipfs/kubo"
-	utilmain "github.com/ipfs/kubo/cmd/ipfs/util"
-	oldcmds "github.com/ipfs/kubo/commands"
-	config "github.com/ipfs/kubo/config"
-	cserial "github.com/ipfs/kubo/config/serialize"
-	"github.com/ipfs/kubo/core"
-	commands "github.com/ipfs/kubo/core/commands"
-	"github.com/ipfs/kubo/core/coreapi"
-	corehttp "github.com/ipfs/kubo/core/corehttp"
-	corerepo "github.com/ipfs/kubo/core/corerepo"
-	libp2p "github.com/ipfs/kubo/core/node/libp2p"
-	nodeMount "github.com/ipfs/kubo/fuse/node"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations"
-	"github.com/ipfs/kubo/repo/fsrepo/migrations/ipfsfetcher"
 	sockets "github.com/libp2p/go-socket-activation"
+	version "github.com/uss2022sayahi/kubo"
+	utilmain "github.com/uss2022sayahi/kubo/cmd/ipfs/util"
+	oldcmds "github.com/uss2022sayahi/kubo/commands"
+	config "github.com/uss2022sayahi/kubo/config"
+	cserial "github.com/uss2022sayahi/kubo/config/serialize"
+	"github.com/uss2022sayahi/kubo/core"
+	commands "github.com/uss2022sayahi/kubo/core/commands"
+	"github.com/uss2022sayahi/kubo/core/coreapi"
+	corehttp "github.com/uss2022sayahi/kubo/core/corehttp"
+	corerepo "github.com/uss2022sayahi/kubo/core/corerepo"
+	libp2p "github.com/uss2022sayahi/kubo/core/node/libp2p"
+	nodeMount "github.com/uss2022sayahi/kubo/fuse/node"
+	fsrepo "github.com/uss2022sayahi/kubo/repo/fsrepo"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo/migrations/ipfsfetcher"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	mprome "github.com/ipfs/go-metrics-prometheus"
@@ -798,7 +798,7 @@ func serveHTTPGateway(req *cmds.Request, cctx *oldcmds.Context) (<-chan error, e
 	}
 
 	if len(cfg.Gateway.PathPrefixes) > 0 {
-		log.Error("Support for X-Ipfs-Gateway-Prefix and Gateway.PathPrefixes is deprecated and will be removed in the next release. Please comment on the issue if you're using this feature: https://github.com/ipfs/kubo/issues/7702")
+		log.Error("Support for X-Ipfs-Gateway-Prefix and Gateway.PathPrefixes is deprecated and will be removed in the next release. Please comment on the issue if you're using this feature: https://github.com/uss2022sayahi/kubo/issues/7702")
 	}
 
 	node, err := cctx.ConstructNode()
@@ -824,7 +824,7 @@ func serveHTTPGateway(req *cmds.Request, cctx *oldcmds.Context) (<-chan error, e
 	return errc, nil
 }
 
-//collects options and opens the fuse mountpoint
+// collects options and opens the fuse mountpoint
 func mountFuse(req *cmds.Request, cctx *oldcmds.Context) error {
 	cfg, err := cctx.GetConfig()
 	if err != nil {

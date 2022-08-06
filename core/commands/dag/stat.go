@@ -7,8 +7,8 @@ import (
 
 	"github.com/ipfs/go-merkledag/traverse"
 	"github.com/ipfs/interface-go-ipfs-core/path"
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/core/commands/e"
+	"github.com/uss2022sayahi/kubo/core/commands/cmdenv"
+	"github.com/uss2022sayahi/kubo/core/commands/e"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	mdag "github.com/ipfs/go-merkledag"

@@ -12,10 +12,10 @@ import (
 	"time"
 
 	namesys "github.com/ipfs/go-namesys"
-	version "github.com/ipfs/kubo"
-	core "github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/coreapi"
-	repo "github.com/ipfs/kubo/repo"
+	version "github.com/uss2022sayahi/kubo"
+	core "github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/core/coreapi"
+	repo "github.com/uss2022sayahi/kubo/repo"
 
 	datastore "github.com/ipfs/go-datastore"
 	syncds "github.com/ipfs/go-datastore/sync"
@@ -24,9 +24,9 @@ import (
 	iface "github.com/ipfs/interface-go-ipfs-core"
 	nsopts "github.com/ipfs/interface-go-ipfs-core/options/namesys"
 	ipath "github.com/ipfs/interface-go-ipfs-core/path"
-	config "github.com/ipfs/kubo/config"
 	ci "github.com/libp2p/go-libp2p-core/crypto"
 	id "github.com/libp2p/go-libp2p/p2p/protocol/identify"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 // `ipfs object new unixfs-dir`

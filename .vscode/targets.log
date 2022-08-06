@@ -1,0 +1,5574 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug  6 00:30:11 2022
+ 
+
+# Variables
+
+# makefile (from 'mk/golang.mk', line 3)
+GO111MODULE = on
+# makefile (from 'cmd/ipfs/Rules.mk', line 40)
+COVER_BIN_cmd/ipfs := cmd/ipfs/ipfs-test-cover
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'bin/Rules.mk', line 5)
+TGTS_bin := bin/protoc
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LOCAL_GIT_DIRECTORY = /opt/github-desktop/resources/app/git
+# environment
+VSCODE_CWD = /home/emil
+# environment
+WINDOWPATH = 2
+# environment
+GDM_LANG = en_GB.UTF-8
+# default
+MAKE_COMMAND := make
+# makefile (from 'mk/header.mk', line 4)
+dirstack_ := test
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# environment
+GOPATH = /home/emil/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'test/sharness/Rules.mk', line 17)
+ORGIN_PLUGINS_test/sharness := 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/emil/Documents/GitHub/kubo
+# makefile (from 'mk/util.mk', line 35)
+join-with = $(subst $(space),$1,$(strip $2))
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/emil
+# makefile (from 'mk/golang.mk', line 29)
+go-pkg-name = $(shell $(GOCC) list $(go-tags) github.com/uss2022sayahi/kubo/$(1))
+# environment
+XDG_DATA_DIRS = /home/emil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/emil/.config/Code - OSS/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'cmd/ipfs/Rules.mk', line 5)
+TEST_GO_BUILD := cmd/ipfs-try-build
+# makefile
+CURDIR := /home/emil/Documents/GitHub/kubo
+# makefile (from 'test/bin/Rules.mk', line 5)
+go-build-testdep = 	OUT="$(CURDIR)/$@" ; cd "test/dependencies" ; $(GOCC) build $(go-flags-with-tags) -o "$${OUT}" "$<"
+# makefile (from 'mk/golang.mk', line 45)
+go-try-build = $(GOCC) build $(go-flags-with-tags) -o /dev/null "$(call go-pkg-name,$<)"
+# makefile (from 'test/bin/Rules.mk', line 84)
+TGTS_test/bin := test/bin/pollEndpoint test/bin/go-sleep test/bin/graphsync-get test/bin/go-timeout test/bin/iptb test/bin/ma-pipe-unidir test/bin/json-to-junit test/bin/gotestsum test/bin/hang-fds test/bin/multihash test/bin/cid-fmt test/bin/random test/bin/random-files test/bin/gocovmerge test/bin/golangci-lint
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'mk/util.mk', line 9)
+PATH_SEP := :
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# makefile (from 'test/sharness/Rules.mk', line 13)
+DEPS_test/sharness := test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'test/sharness/Rules.mk', line 18)
+PLUGINS_test/sharness := 
+# makefile (from 'mk/golang.mk', line 70)
+TEST_GO := test_go_expensive test_go_fmt
+# environment
+XDG_SESSION_DESKTOP = gnome
+# makefile (from 'mk/footer.mk', line 1)
+MAKEFILE_LIST := GNUmakefile Rules.mk mk/git.mk mk/tarball.mk mk/util.mk mk/golang.mk bin/Rules.mk mk/header.mk mk/footer.mk plugin/Rules.mk mk/header.mk plugin/loader/Rules.mk mk/header.mk mk/footer.mk plugin/plugins/Rules.mk mk/header.mk mk/footer.mk mk/footer.mk test/Rules.mk mk/header.mk test/bin/Rules.mk mk/header.mk mk/footer.mk test/sharness/Rules.mk mk/header.mk mk/footer.mk test/unit/Rules.mk mk/header.mk mk/footer.mk mk/footer.mk cmd/ipfs/Rules.mk mk/header.mk mk/footer.mk
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 91373
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Rules.mk', line 3)
+COVERAGE := 
+# environment
+SESSION_MANAGER = local/ms7b86:@/tmp/.ICE-unix/1814,unix/ms7b86:/tmp/.ICE-unix/1814
+# makefile (from 'mk/golang.mk', line 35)
+go-flags-with-tags = $(GOFLAGS)$(go-tags)
+# automatic
+*F = $(notdir $*)
+# makefile (from 'test/sharness/Rules.mk', line 16)
+PLUGINS_DIR_test/sharness := test/sharness/plugins/
+# makefile (from 'mk/util.mk', line 8)
+?exe := 
+# makefile (from 'mk/footer.mk', line 2)
+d := test
+# environment
+QT_QPA_PLATFORMTHEME = gtk3
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Rules.mk', line 8)
+PROTOC = protoc
+# makefile (from 'mk/footer.mk', line 3)
+sp := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'bin/Rules.mk', line 3)
+dist_root_bin = "/ipfs/QmPrXH9jRVwvd7r5MC5e6nV4uauQGzLk1i2647Ye9Vbbwe"
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'GNUmakefile', line 3)
+SHELL = PATH='$(PATH)' /bin/sh
+# makefile (from 'plugin/plugins/Rules.mk', line 5)
+plugin/plugins_plugins_main := 
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# makefile (from 'mk/golang.mk', line 2)
+GO_MIN_VERSION = 1.17
+# makefile (from 'mk/golang.mk', line 31)
+go-curr-pkg-tgt = $(d)/$(call go-main-name,$(d))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from 'cmd/ipfs/Rules.mk', line 8)
+PATH := /home/emil/Documents/GitHub/kubo/cmd/ipfs:/home/emil/Documents/GitHub/kubo/test/bin:/home/emil/Documents/GitHub/kubo/bin:/home/emil/.cargo/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/home/emil/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+CLOJURE_HOME = /usr/share/clojure
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# makefile (from 'mk/util.mk', line 34)
+comma := ,
+# makefile (from 'cmd/ipfs/Rules.mk', line 16)
+cmd/ipfs_flags = -ldflags="-X "github.com/uss2022sayahi/kubo".CurrentCommit=$(git-hash)"
+# environment
+GRADLE_HOME = /usr/share/java/gradle
+# environment
+INVOCATION_ID = 75e1fdd776464cccac2be61537d40617
+# environment
+USERNAME = emil
+# makefile (from 'test/sharness/Rules.mk', line 5)
+T_test/sharness = $(sort $(wildcard $(d)/t[0-9][0-9][0-9][0-9]-*.sh))
+# makefile (from 'plugin/loader/Rules.mk', line 3)
+IPFS_PLUGINS = 
+# makefile (from 'mk/git.mk', line 4)
+git-hash := e0fabd6db
+# makefile (from 'mk/golang.mk', line 41)
+go-build = $(GOCC) build $(go-flags-with-tags) -o "$@" "$(1)"
+# makefile (from 'plugin/plugins/Rules.mk', line 3)
+plugin/plugins_plugins := 
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# makefile (from 'mk/tarball.mk', line 4)
+tarball-is := 0
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = gnome
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# makefile (from 'test/sharness/Rules.mk', line 73)
+TEST := test_go_expensive test_go_fmt test_sharness_expensive
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'test/sharness/Rules.mk', line 29)
+MAKE_SKIP_PATH = 1
+# makefile (from 'mk/util.mk', line 2)
+OS = $(shell sh -c 'uname -s 2>/dev/null || echo not')
+# environment
+LOGNAME = emil
+# makefile (from 'mk/golang.mk', line 27)
+CHECK_GO := 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/github-desktop.desktop
+# makefile (from 'cmd/ipfs/Rules.mk', line 41)
+CLEAN := bin/protoc test/bin/pollEndpoint test/bin/go-sleep test/bin/graphsync-get test/bin/go-timeout test/bin/iptb test/bin/ma-pipe-unidir test/bin/json-to-junit test/bin/gotestsum test/bin/hang-fds test/bin/multihash test/bin/cid-fmt test/bin/random test/bin/random-files test/bin/gocovmerge test/bin/golangci-lint test/unit/gotest.json test/unit/gotest.junit.xml cmd/ipfs/ipfs cmd/ipfs/ipfs-test-cover
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'mk/util.mk', line 33)
+space := $(subst ,, )
+# environment
+SYSTEMD_EXEC_PID = 1829
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :1
+# environment
+USER = emil
+# makefile (from 'mk/golang.mk', line 32)
+go-pkgs = $(shell $(GOCC) list github.com/uss2022sayahi/kubo/...)
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'mk/golang.mk', line 30)
+go-main-name = $(notdir $(call go-pkg-name,$(1)))$(?exe)
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'mk/golang.mk', line 8)
+GOTAGS = 
+# makefile (from 'plugin/loader/Rules.mk', line 11)
+DEPS_GO := check_go_version plugin/loader/preload.go
+# makefile (from 'cmd/ipfs/Rules.mk', line 2)
+IPFS_BIN_cmd/ipfs := cmd/ipfs/ipfs
+# makefile (from 'test/sharness/Rules.mk', line 74)
+TEST_SHORT := test_go_fmt test_go_short test_sharness_short
+# makefile (from 'Rules.mk', line 25)
+LIBP2P_TCP_REUSEPORT = false
+# environment
+MANAGERPID = 1665
+# makefile (from 'mk/golang.mk', line 9)
+GOTFLAGS = 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 36008
+# environment
+QT_STYLE_OVERRIDE = adwaita
+# makefile (from 'bin/Rules.mk', line 6)
+DISTCLEAN := bin/protoc bin/tmp
+# makefile (from 'mk/golang.mk', line 37)
+go-build-relative = $(GOCC) build $(go-flags-with-tags) -o "$@" "$(call go-pkg-name,$<)"
+# environment
+_ = /usr/bin/make
+# makefile (from 'cmd/ipfs/Rules.mk', line 24)
+TRY_BUILD_cmd/ipfs = $(addprefix $(d)-try-build-,$(SUPPORTED_PLATFORMS))
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Rules.mk', line 40)
+dir := cmd/ipfs
+# makefile (from 'test/sharness/Rules.mk', line 3)
+SHARNESS_test/sharness = $(d)/lib/sharness/sharness.sh
+# makefile (from 'mk/util.mk', line 31)
+SUPPORTED_PLATFORMS = windows-386 windows-amd64 linux-arm linux-arm64 linux-386 linux-amd64 darwin-amd64 darwin-arm64 freebsd-386 freebsd-amd64 openbsd-386 openbsd-amd64 netbsd-386 netbsd-amd64
+# environment
+GOMODCACHE = /home/emil/go/pkg/mod
+# environment
+JOURNAL_STREAM = 8:27368
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/emil
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Rules.mk', line 7)
+GOCC = go
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-55f8c7ba-1.69.2-main.sock
+# makefile (from 'mk/golang.mk', line 34)
+go-tags = $(if $(GOTAGS), -tags="$(call join-with,$(space),$(GOTAGS))")
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# 'override' directive (from 'mk/golang.mk', line 15)
+GOFLAGS := "-asmflags=all='-trimpath=/home/emil/go'" "-gcflags=all='-trimpath=/home/emil/go'"
+# makefile (from 'mk/header.mk', line 3)
+p := .x
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 1
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'cmd/ipfs/Rules.mk', line 4)
+TGT_BIN := cmd/ipfs/ipfs
+# environment
+XDG_MENU_PREFIX = gnome-
+# makefile (from 'plugin/plugins/Rules.mk', line 4)
+plugin/plugins_plugins_so := 
+# environment
+GDMSESSION = gnome
+# variable set hash-table stats:
+# Load=160/1024=16%, Rehash=0, Collisions=46/968=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66307, inode 91233565): 13 files, no impossibilities so far.
+# test/sharness/test-results: could not be stat'd.
+# test/sharness (device 66307, inode 92151116): 148 files, no impossibilities.
+
+# 161 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+print-%:
+#  recipe to execute (from 'mk/util.mk', line 39):
+	@echo $*=$($*)
+
+%.pb.go: %.proto bin/protoc-gen-gogofaster
+#  recipe to execute (from 'Rules.mk', line 56):
+	$(PROTOC) --gogofaster_out=. --proto_path=.:$(GOPATH)/src:$(dir $@) $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+test/sharness/t0065-active-requests.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+ 
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0065-active-requests.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test_go_build: cmd/ipfs-try-build
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test_go_build
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+
+# Not a target:
+mk/header.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+bin/protoc-gen-gogofaster:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'bin/Rules.mk', line 19):
+	$(call go-build,github.com/gogo/protobuf/protoc-gen-gogofaster)
+
+test/sharness/t0700-remotepin.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0700-remotepin.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0125-twonode.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0125-twonode.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0120-bootstrap.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0120-bootstrap.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/hang-fds: github.com/ipfs/hang-fds check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/hang-fds
+# automatic
+# * := 
+# automatic
+# < := github.com/ipfs/hang-fds
+# automatic
+# + := github.com/ipfs/hang-fds
+# automatic
+# % := 
+# automatic
+# ^ := github.com/ipfs/hang-fds
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 53):
+	$(go-build-testdep)
+
+coverage:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0142-testfilter.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0142-testfilter.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/gotestsum: gotest.tools/gotestsum check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/gotestsum
+# automatic
+# * := 
+# automatic
+# < := gotest.tools/gotestsum
+# automatic
+# + := gotest.tools/gotestsum
+# automatic
+# % := 
+# automatic
+# ^ := gotest.tools/gotestsum
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 48):
+	$(go-build-testdep)
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-linux-arm: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-linux-arm: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-linux-arm: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-linux-arm: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-linux-arm
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+check_go_version:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'mk/golang.mk', line 79):
+	@$(GOCC) version
+	bin/check_go_version $(GO_MIN_VERSION)
+
+# Not a target:
+plugin/loader/preload.sh:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.598723053
+#  File has been updated.
+#  Successfully updated.
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Rules.mk', line 73):
+	rm -rf $(DISTCLEAN)
+	git clean -ffxd
+
+build_plugins:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+test/sharness/t0260-sharding.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0260-sharding.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0066-migration.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0066-migration.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+install_unsupported: install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Rules.mk', line 94):
+	@echo "/=======================================================================\\"
+	@echo '|                                                                       |'
+	@echo '| `make install_unsupported` is deprecated, use `make install` instead. |'
+	@echo '|                                                                       |'
+	@echo "\\=======================================================================/"
+
+test/sharness/t0081-repo-pinning.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0081-repo-pinning.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0064-api-file.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0064-api-file.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0271-filestore-utils.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0271-filestore-utils.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/golangci-lint: github.com/golangci/golangci-lint/cmd/golangci-lint check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/golangci-lint
+# automatic
+# * := 
+# automatic
+# < := github.com/golangci/golangci-lint/cmd/golangci-lint
+# automatic
+# + := github.com/golangci/golangci-lint/cmd/golangci-lint
+# automatic
+# % := 
+# automatic
+# ^ := github.com/golangci/golangci-lint/cmd/golangci-lint
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 83):
+	$(go-build-testdep)
+
+test/sharness/t0118-gateway-car.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0118-gateway-car.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0300-docker-image.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0300-docker-image.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0031-mount-publish.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0031-mount-publish.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0042-add-skip.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0042-add-skip.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+ 
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0087-repo-robust-gc.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0087-repo-robust-gc.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0290-cid.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0290-cid.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0084-repo-read-rehash.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0084-repo-read-rehash.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+ 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0027-rotate.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0027-rotate.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/clean-test-results:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'test/sharness/Rules.mk', line 51):
+	rm -rf $(@D)/test-results
+
+# Not a target:
+mk/footer.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-netbsd-386: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-netbsd-386: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-netbsd-386: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-netbsd-386: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-netbsd-386
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0060-daemon.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0060-daemon.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+ 
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0110-gateway.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0110-gateway.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0101-iptb-name.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0101-iptb-name.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0139-swarm-rcmgr.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0139-swarm-rcmgr.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0701-delegated-routing-reframe.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0701-delegated-routing-reframe.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-windows-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-windows-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-windows-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-windows-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-windows-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0111-gateway-writeable.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0111-gateway-writeable.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0400-api-no-gateway.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0400-api-no-gateway.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'mk/golang.mk', line 59)
+test_go_race: GOTFLAGS += -race
+test_go_race: test_go_test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+go-ipfs-source.tar.gz: distclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'mk/tarball.mk', line 14):
+	GOCC=$(GOCC) bin/maketarball.sh $@
+
+# Not a target:
+mk/git.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0080-repo.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0080-repo.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0100-name.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0100-name.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/pollEndpoint: github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/pollEndpoint
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 13):
+	$(go-build-testdep)
+
+test_short: test_go_fmt test_go_short test_sharness_short
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0175-provider.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0175-provider.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0252-files-gc.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0252-files-gc.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0062-daemon-api.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0062-daemon-api.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'mk/golang.mk', line 55)
+test_go_short: GOTFLAGS += -test.short
+test_go_short: test_go_test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+test/bin/cid-fmt: github.com/ipfs/go-cidutil/cid-fmt check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/cid-fmt
+# automatic
+# * := 
+# automatic
+# < := github.com/ipfs/go-cidutil/cid-fmt
+# automatic
+# + := github.com/ipfs/go-cidutil/cid-fmt
+# automatic
+# % := 
+# automatic
+# ^ := github.com/ipfs/go-cidutil/cid-fmt
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 63):
+	$(go-build-testdep)
+
+test/sharness/t0026-id.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0026-id.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0051-object.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0051-object.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-windows-386: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-windows-386: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-windows-386: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-windows-386: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-windows-386
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0114-gateway-subdomains.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0114-gateway-subdomains.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/random: github.com/jbenet/go-random/random check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/random
+# automatic
+# * := 
+# automatic
+# < := github.com/jbenet/go-random/random
+# automatic
+# + := github.com/jbenet/go-random/random
+# automatic
+# % := 
+# automatic
+# ^ := github.com/jbenet/go-random/random
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 68):
+	$(go-build-testdep)
+
+# Not a target:
+plugin/loader/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0152-profile.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0152-profile.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0041-ping.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0041-ping.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+ 
+test/sharness/t0183-namesys-pubsub.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0183-namesys-pubsub.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0220-bitswap.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0220-bitswap.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0022-init-default.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0022-init-default.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0150-clisuggest.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0150-clisuggest.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0301-docker-migrate.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+ 
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0301-docker-migrate.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0185-autonat.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0185-autonat.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0160-resolve.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0160-resolve.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+gotest.tools/gotestsum:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0011-completion.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0011-completion.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+ALWAYS:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0280-plugin-git.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0280-plugin-git.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0230-channel-streaming-http-content-type.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0230-channel-streaming-http-content-type.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+uninstall:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Rules.mk', line 102):
+	$(GOCC) clean -i ./cmd/ipfs
+
+# Not a target:
+bin/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.602056375
+#  File has been updated.
+#  Successfully updated.
+
+test_go_test: check_go_version plugin/loader/preload.go
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test_go_test
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+ 
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'mk/golang.mk', line 50):
+	$(GOCC) test $(go-flags-with-tags) $(GOTFLAGS) ./...
+
+test/sharness/t0250-files-api.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0250-files-api.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0231-channel-streaming.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0231-channel-streaming.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0171-peering.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0171-peering.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test_go_expensive: test_go_test test_go_build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+ 
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Rules.mk', line 66):
+	rm -rf $(CLEAN)
+
+test/sharness/t0130-multinode.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0130-multinode.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0190-quic-ping.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0190-quic-ping.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/golangci/golangci-lint/cmd/golangci-lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0165-keystore.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0165-keystore.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+ 
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0210-tar.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0210-tar.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0052-object-diff.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0052-object-diff.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0280-plugin-peerlog.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0280-plugin-peerlog.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+plugin/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0200-unixfs-ls.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+ 
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0200-unixfs-ls.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0043-add-w.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0043-add-w.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0053-dag.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0053-dag.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0276-cidv0v1.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0276-cidv0v1.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+ 
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0046-id-hash.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0046-id-hash.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/go-timeout:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 18)
+cmd/ipfs/ipfs: GOFLAGS += $(cmd/ipfs_flags)
+cmd/ipfs/ipfs: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs/ipfs
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 22):
+	$(go-build-relative)
+
+# makefile (from 'Rules.mk', line 86)
+nofuse: GOTAGS += nofuse
+nofuse: build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+test/sharness/t0086-repo-verify.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0086-repo-verify.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+ 
+test/sharness/t0045-ls.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0045-ls.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0050-block.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0050-block.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'plugin/loader/Rules.mk', line 6)
+plugin/loader/preload.go: d := plugin/loader
+plugin/loader/preload.go: plugin/loader/preload_list plugin/loader/preload.sh ALWAYS
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from 'plugin/loader/Rules.mk', line 8):
+	$(d)/preload.sh > $@
+	go fmt $@ >/dev/null
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-openbsd-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-openbsd-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-openbsd-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-openbsd-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-openbsd-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0070-user-config.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0070-user-config.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/graphsync-get: github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/graphsync-get
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 23):
+	$(go-build-testdep)
+
+# Not a target:
+mk/util.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0175-reprovider.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0175-reprovider.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0500-issues-and-regressions-offline.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+ 
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0500-issues-and-regressions-offline.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+cmd/ipfs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+plugin/plugins/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/bin/json-to-junit: github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/json-to-junit
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 43):
+	$(go-build-testdep)
+
+github.com/ipfs/go-cidutil/cid-fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0140-swarm.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0140-swarm.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0095-refs.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0095-refs.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0021-config.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0021-config.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0221-graphsync.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0221-graphsync.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0410-api-add.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0410-api-add.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0032-mount-sharded.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0032-mount-sharded.sh
+# automatic
+# * := 
+# automatic
+# < := 
+ 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0063-external.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0063-external.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0295-multibase.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0295-multibase.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/unit/gotest.junit.xml: clean test/bin/gotestsum coverage/unit_tests.coverprofile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'test/unit/Rules.mk', line 6):
+	gotestsum --no-color --junitfile $@ --raw-command cat $(@D)/gotest.json
+
+test/sharness/t0085-pins.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0085-pins.sh
+# automatic
+# * := 
+# automatic
+# < := 
+ 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+bin/protoc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'bin/Rules.mk', line 11):
+	rm -f $@$(?exe)
+	ln -s $(notdir $^) $@
+
+test/bin/gocovmerge: github.com/Kubuxu/gocovmerge check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/gocovmerge
+# automatic
+# * := 
+# automatic
+# < := github.com/Kubuxu/gocovmerge
+# automatic
+# + := github.com/Kubuxu/gocovmerge
+# automatic
+# % := 
+# automatic
+# ^ := github.com/Kubuxu/gocovmerge
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 78):
+	$(go-build-testdep)
+
+test/sharness/t0001-tests-work.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0001-tests-work.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0280-plugin-dag-jose.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0280-plugin-dag-jose.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+ 
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0112-gateway-cors.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0112-gateway-cors.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+test/sharness/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.665389505
+#  File has been updated.
+#  Successfully updated.
+
+test_go_lint: test/bin/golangci-lint
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'mk/golang.mk', line 73):
+	golangci-lint run --timeout=3m ./...
+
+github.com/jbenet/go-random-files/random-files:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0025-datastores.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0025-datastores.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+ 
+test/sharness/t0131-multinode-client-routing.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0131-multinode-client-routing.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 35)
+cmd/ipfs-install: GOFLAGS += $(cmd/ipfs_flags)
+cmd/ipfs-install: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-install
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 37):
+	$(GOCC) install $(go-flags-with-tags) ./cmd/ipfs
+
+test/sharness/t0170-routing-dht.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0170-routing-dht.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/uss2022sayahi/kubo/test/dependencies/go-sleep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0020-init.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+ 
+# automatic
+# @ := test/sharness/t0020-init.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0115-gateway-dir-listing.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0115-gateway-dir-listing.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0280-plugin.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0280-plugin.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+coverage/unit_tests.coverprofile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_go: test_go_expensive test_go_fmt
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+test/sharness/t0015-basic-sh-functions.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0015-basic-sh-functions.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/random-files: github.com/jbenet/go-random-files/random-files check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/random-files
+# automatic
+# * := 
+# automatic
+# < := github.com/jbenet/go-random-files/random-files
+# automatic
+# + := github.com/jbenet/go-random-files/random-files
+# automatic
+# % := 
+# automatic
+# ^ := github.com/jbenet/go-random-files/random-files
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 73):
+	$(go-build-testdep)
+
+test/sharness/t0236-cli-api-dns-resolve.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0236-cli-api-dns-resolve.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0310-tracing.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+ 
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0310-tracing.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+all: help
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/4=0%
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := help
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Rules.mk', line 111):
+	@echo 'DEPENDENCY TARGETS:'
+	@echo ''
+	@echo '  deps                 - Download dependencies using bundled gx'
+	@echo '  test_sharness_deps   - Download and build dependencies for sharness'
+	@echo ''
+	@echo 'BUILD TARGETS:'
+	@echo ''
+	@echo '  all          - print this help message'
+	@echo '  build        - Build binary at ./cmd/ipfs/ipfs'
+	@echo '  nofuse       - Build binary with no fuse support'
+	@echo '  install      - Build binary and install into $$GOPATH/bin'
+	@echo ''
+	@echo 'CLEANING TARGETS:'
+	@echo ''
+	@echo '  clean        - Remove files generated by build'
+	@echo '  distclean    - Remove files that are no part of a repository'
+	@echo '  uninstall    - Remove binary from $$GOPATH/bin'
+	@echo ''
+	@echo 'TESTING TARGETS:'
+	@echo ''
+	@echo '  test                    - Run all tests'
+	@echo '  test_short              - Run short go tests and short sharness tests'
+	@echo '  test_go_short           - Run short go tests'
+	@echo '  test_go_test            - Run all go tests'
+	@echo '  test_go_expensive       - Run all go tests and compile on all platforms'
+	@echo '  test_go_race            - Run go tests with the race detector enabled'
+	@echo '  test_go_lint            - Run the `golangci-lint` vetting tool'
+	@echo '  test_sharness_short     - Run short sharness tests'
+	@echo '  test_sharness_expensive - Run all sharness tests'
+	@echo '  coverage     - Collects coverage info from unit tests and sharness'
+	@echo
+
+# makefile (from 'test/sharness/Rules.mk', line 45)
+test/sharness/test-results/sharness.xml: TEST_GENERATE_JUNIT = 1
+test/sharness/test-results/sharness.xml: test_sharness_expensive
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# variable set hash-table stats:
+ 
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 47):
+	@echo "*** $@ ***"
+	@(cd $(@D)/.. && ./lib/gen-junit-report.sh)
+
+# makefile (from 'test/sharness/Rules.mk', line 69)
+test_sharness_expensive: TEST_EXPENSIVE = 1
+test_sharness_expensive: test_sharness_short
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+
+build: cmd/ipfs/ipfs
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test_go_fmt:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'mk/golang.mk', line 68):
+	bin/test-go-fmt
+
+test/sharness/t0119-prometheus.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0119-prometheus.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/jbenet/go-random/random:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0180-p2p.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0180-p2p.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/multihash: github.com/multiformats/go-multihash/multihash check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+ 
+# automatic
+# @ := test/bin/multihash
+# automatic
+# * := 
+# automatic
+# < := github.com/multiformats/go-multihash/multihash
+# automatic
+# + := github.com/multiformats/go-multihash/multihash
+# automatic
+# % := 
+# automatic
+# ^ := github.com/multiformats/go-multihash/multihash
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 58):
+	$(go-build-testdep)
+
+test/sharness/t0191-noise.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0191-noise.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/go-sleep: github.com/uss2022sayahi/kubo/test/dependencies/go-sleep check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/go-sleep
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/go-sleep
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/go-sleep
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/go-sleep
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 18):
+	$(go-build-testdep)
+
+test/bin/ma-pipe-unidir: github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/ma-pipe-unidir
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir
+ 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 38):
+	$(go-build-testdep)
+
+test/sharness/t0044-add-symlink.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0044-add-symlink.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0055-dag-put-json-new-line.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0055-dag-put-json-new-line.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test: test_go_expensive test_go_fmt test_sharness_expensive
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/aggregate: test/sharness/t0001-tests-work.sh test/sharness/t0010-basic-commands.sh test/sharness/t0011-completion.sh test/sharness/t0015-basic-sh-functions.sh test/sharness/t0018-indent.sh test/sharness/t0020-init.sh test/sharness/t0021-config.sh test/sharness/t0022-init-default.sh test/sharness/t0023-shutdown.sh test/sharness/t0024-datastore-config.sh test/sharness/t0025-datastores.sh test/sharness/t0026-id.sh test/sharness/t0027-rotate.sh test/sharness/t0030-mount.sh test/sharness/t0031-mount-publish.sh test/sharness/t0032-mount-sharded.sh test/sharness/t0040-add-and-cat.sh test/sharness/t0041-ping.sh test/sharness/t0042-add-skip.sh test/sharness/t0043-add-w.sh test/sharness/t0044-add-symlink.sh test/sharness/t0045-ls.sh test/sharness/t0046-id-hash.sh test/sharness/t0050-block.sh test/sharness/t0051-object.sh test/sharness/t0052-object-diff.sh test/sharness/t0053-dag.sh test/sharness/t0054-dag-car-import-export.sh test/sharness/t0055-dag-put-json-new-line.sh test/sharness/t0060-daemon.sh test/sharness/t0061-daemon-opts.sh test/sharness/t0062-daemon-api.sh test/sharness/t0063-daemon-init.sh test/sharness/t0063-external.sh test/sharness/t0064-api-file.sh test/sharness/t0065-active-requests.sh test/sharness/t0066-migration.sh test/sharness/t0067-unix-api.sh test/sharness/t0070-user-config.sh test/sharness/t0080-repo.sh test/sharness/t0081-repo-pinning.sh test/sharness/t0082-repo-gc-auto.sh test/sharness/t0084-repo-read-rehash.sh test/sharness/t0085-pins.sh test/sharness/t0086-repo-verify.sh test/sharness/t0087-repo-robust-gc.sh test/sharness/t0088-repo-stat-symlink.sh test/sharness/t0090-get.sh test/sharness/t0095-refs.sh test/sharness/t0100-name.sh test/sharness/t0101-iptb-name.sh test/sharness/t0110-gateway.sh test/sharness/t0111-gateway-writeable.sh test/sharness/t0112-gateway-cors.sh test/sharness/t0113-gateway-symlink.sh test/sharness/t0114-gateway-subdomains.sh test/sharness/t0115-gateway-dir-listing.sh test/sharness/t0116-gateway-cache.sh test/sharness/t0117-gateway-block.sh test/sharness/t0118-gateway-car.sh test/sharness/t0119-prometheus.sh test/sharness/t0120-bootstrap.sh test/sharness/t0121-bootstrap-iptb.sh test/sharness/t0125-twonode.sh test/sharness/t0130-multinode.sh test/sharness/t0131-multinode-client-routing.sh test/sharness/t0139-swarm-rcmgr.sh test/sharness/t0140-swarm.sh test/sharness/t0141-addfilter.sh test/sharness/t0142-testfilter.sh test/sharness/t0150-clisuggest.sh test/sharness/t0151-sysdiag.sh test/sharness/t0152-profile.sh test/sharness/t0160-resolve.sh test/sharness/t0165-keystore.sh test/sharness/t0170-legacy-dht.sh test/sharness/t0170-routing-dht.sh test/sharness/t0171-peering.sh test/sharness/t0175-provider.sh test/sharness/t0175-reprovider.sh test/sharness/t0175-strategic-provider.sh test/sharness/t0180-p2p.sh test/sharness/t0181-private-network.sh test/sharness/t0182-circuit-relay.sh test/sharness/t0183-namesys-pubsub.sh test/sharness/t0184-http-proxy-over-p2p.sh test/sharness/t0185-autonat.sh test/sharness/t0190-quic-ping.sh test/sharness/t0191-noise.sh test/sharness/t0200-unixfs-ls.sh test/sharness/t0210-tar.sh test/sharness/t0220-bitswap.sh test/sharness/t0221-graphsync.sh test/sharness/t0230-channel-streaming-http-content-type.sh test/sharness/t0231-channel-streaming.sh test/sharness/t0235-cli-request.sh test/sharness/t0236-cli-api-dns-resolve.sh test/sharness/t0240-republisher.sh test/sharness/t0250-files-api.sh test/sharness/t0251-files-flushing.sh test/sharness/t0252-files-gc.sh test/sharness/t0260-sharding.sh test/sharness/t0270-filestore.sh test/sharness/t0271-filestore-utils.sh test/sharness/t0272-urlstore.sh test/sharness/t0275-cid-security.sh test/sharness/t0276-cidv0v1.sh test/sharness/t0280-plugin-dag-jose.sh test/sharness/t0280-plugin-git.sh test/sharness/t0280-plugin-peerlog.sh test/sharness/t0280-plugin.sh test/sharness/t0290-cid.sh test/sharness/t0295-multibase.sh test/sharness/t0300-docker-image.sh test/sharness/t0301-docker-migrate.sh test/sharness/t0310-tracing.sh test/sharness/t0320-pubsub.sh test/sharness/t0321-pubsub-gossipsub.sh test/sharness/t0322-pubsub-http-rpc.sh test/sharness/t0400-api-no-gateway.sh test/sharness/t0401-api-browser-security.sh test/sharness/t0410-api-add.sh test/sharness/t0500-issues-and-regressions-offline.sh test/sharness/t0600-issues-and-regressions-online.sh test/sharness/t0700-remotepin.sh test/sharness/t0701-delegated-routing-reframe.sh
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'test/sharness/Rules.mk', line 41):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./lib/test-aggregate-results.sh)
+
+test/sharness/t0018-indent.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0018-indent.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0141-addfilter.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0141-addfilter.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+test/sharness:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/sharness/t0088-repo-stat-symlink.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0088-repo-stat-symlink.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0275-cid-security.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0275-cid-security.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+ 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-freebsd-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-freebsd-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-freebsd-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-freebsd-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-freebsd-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 43)
+cmd/ipfs/ipfs-test-cover: GOTAGS += testrunmain
+cmd/ipfs/ipfs-test-cover: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs/ipfs-test-cover
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 45):
+	$(eval TMP_PKGS := $(shell $(GOCC) list -f '{{range .Deps}}{{.}} {{end}}' $(go-flags-with-tags) ./cmd/ipfs | sed 's/ /\n/g' | grep ipfs/kubo) $(call go-pkg-name,$<))
+	$(eval TMP_LIST := $(call join-with,$(comma),$(TMP_PKGS)))
+	@echo $(GOCC) test $@ -c -covermode atomic -coverpkg ... $(go-flags-with-tags) ./$(@D) # for info
+	@$(GOCC) test -o $@ -c -covermode atomic -coverpkg $(TMP_LIST) $(go-flags-with-tags) ./$(@D) 2>&1 | (grep -v 'warning: no packages being tested' || true)
+
+test/sharness/t0272-urlstore.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0272-urlstore.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+ 
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0061-daemon-opts.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0061-daemon-opts.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0270-filestore.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0270-filestore.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-darwin-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-darwin-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-darwin-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-darwin-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-darwin-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+ 
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+# Not a target:
+mk/tarball.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.655389537
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0175-strategic-provider.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0175-strategic-provider.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0151-sysdiag.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0151-sysdiag.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/multiformats/go-multihash/multihash:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/lib/sharness/sharness.sh: test/sharness ALWAYS
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'test/sharness/Rules.mk', line 57):
+	@clonedir=$(dir $(@D)) $</lib/install-sharness.sh
+
+test/sharness/t0054-dag-car-import-export.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0054-dag-car-import-export.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0251-files-flushing.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0251-files-flushing.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0170-legacy-dht.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0170-legacy-dht.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 18)
+cmd/ipfs-try-build: GOFLAGS += $(cmd/ipfs_flags)
+cmd/ipfs-try-build: cmd/ipfs-try-build-windows-386 cmd/ipfs-try-build-windows-amd64 cmd/ipfs-try-build-linux-arm cmd/ipfs-try-build-linux-arm64 cmd/ipfs-try-build-linux-386 cmd/ipfs-try-build-linux-amd64 cmd/ipfs-try-build-darwin-amd64 cmd/ipfs-try-build-darwin-arm64 cmd/ipfs-try-build-freebsd-386 cmd/ipfs-try-build-freebsd-amd64 cmd/ipfs-try-build-openbsd-386 cmd/ipfs-try-build-openbsd-amd64 cmd/ipfs-try-build-netbsd-386 cmd/ipfs-try-build-netbsd-amd64
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/3=0%
+
+ 
+# Not a target:
+test/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.662056182
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-freebsd-386: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-freebsd-386: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-freebsd-386: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-freebsd-386: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-freebsd-386
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+install: cmd/ipfs-install
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0121-bootstrap-iptb.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0121-bootstrap-iptb.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+github.com/Kubuxu/gocovmerge:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0182-circuit-relay.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0182-circuit-relay.sh
+ 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/go-timeout: github.com/uss2022sayahi/kubo/test/dependencies/go-timeout check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/go-timeout
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/go-timeout
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/go-timeout
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/go-timeout
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 28):
+	$(go-build-testdep)
+
+test/sharness/t0235-cli-request.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0235-cli-request.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0240-republisher.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0240-republisher.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test_sharness_deps: test/sharness/deps
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+plugin/loader/preload_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SECONDEXPANSION:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test/sharness/t0181-private-network.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0181-private-network.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+deps:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+test/unit/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.675389473
+#  File has been updated.
+#  Successfully updated.
+
+github.com/uss2022sayahi/kubo/test/dependencies/iptb:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0067-unix-api.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0067-unix-api.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+ 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0010-basic-commands.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0010-basic-commands.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0321-pubsub-gossipsub.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0321-pubsub-gossipsub.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-openbsd-386: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-openbsd-386: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-openbsd-386: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-openbsd-386: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-openbsd-386
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+ 
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0600-issues-and-regressions-online.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0600-issues-and-regressions-online.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0320-pubsub.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0320-pubsub.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+kubo-source.tar.gz: distclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'mk/tarball.mk', line 17):
+	GOCC=$(GOCC) bin/maketarball.sh $@
+
+test/sharness/t0117-gateway-block.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0117-gateway-block.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+mk/golang.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:21:32.691827923
+#  File has been updated.
+#  Successfully updated.
+
+test/sharness/t0401-api-browser-security.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0401-api-browser-security.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0116-gateway-cache.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0116-gateway-cache.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-linux-386: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-linux-386: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-linux-386: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-linux-386: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-linux-386
+# automatic
+# | := 
+ 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0090-get.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0090-get.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+.PHONY: all ALWAYS test_go_test test_go_short test_go_race test_go_expensive test_go_fmt test_go_lint check_go_version github.com/uss2022sayahi/kubo/test/dependencies/pollEndpoint github.com/uss2022sayahi/kubo/test/dependencies/go-sleep github.com/uss2022sayahi/kubo/test/dependencies/graphsync-get github.com/uss2022sayahi/kubo/test/dependencies/go-timeout github.com/uss2022sayahi/kubo/test/dependencies/iptb github.com/uss2022sayahi/kubo/test/dependencies/ma-pipe-unidir github.com/uss2022sayahi/kubo/test/dependencies/json-to-junit gotest.tools/gotestsum github.com/ipfs/hang-fds github.com/multiformats/go-multihash/multihash github.com/ipfs/go-cidutil/cid-fmt github.com/jbenet/go-random/random github.com/jbenet/go-random-files/random-files github.com/Kubuxu/gocovmerge github.com/golangci/golangci-lint/cmd/golangci-lint test/sharness/t0001-tests-work.sh test/sharness/t0010-basic-commands.sh test/sharness/t0011-completion.sh test/sharness/t0015-basic-sh-functions.sh test/sharness/t0018-indent.sh test/sharness/t0020-init.sh test/sharness/t0021-config.sh test/sharness/t0022-init-default.sh test/sharness/t0023-shutdown.sh test/sharness/t0024-datastore-config.sh test/sharness/t0025-datastores.sh test/sharness/t0026-id.sh test/sharness/t0027-rotate.sh test/sharness/t0030-mount.sh test/sharness/t0031-mount-publish.sh test/sharness/t0032-mount-sharded.sh test/sharness/t0040-add-and-cat.sh test/sharness/t0041-ping.sh test/sharness/t0042-add-skip.sh test/sharness/t0043-add-w.sh test/sharness/t0044-add-symlink.sh test/sharness/t0045-ls.sh test/sharness/t0046-id-hash.sh test/sharness/t0050-block.sh test/sharness/t0051-object.sh test/sharness/t0052-object-diff.sh test/sharness/t0053-dag.sh test/sharness/t0054-dag-car-import-export.sh test/sharness/t0055-dag-put-json-new-line.sh test/sharness/t0060-daemon.sh test/sharness/t0061-daemon-opts.sh test/sharness/t0062-daemon-api.sh test/sharness/t0063-daemon-init.sh test/sharness/t0063-external.sh test/sharness/t0064-api-file.sh test/sharness/t0065-active-requests.sh test/sharness/t0066-migration.sh test/sharness/t0067-unix-api.sh test/sharness/t0070-user-config.sh test/sharness/t0080-repo.sh test/sharness/t0081-repo-pinning.sh test/sharness/t0082-repo-gc-auto.sh test/sharness/t0084-repo-read-rehash.sh test/sharness/t0085-pins.sh test/sharness/t0086-repo-verify.sh test/sharness/t0087-repo-robust-gc.sh test/sharness/t0088-repo-stat-symlink.sh test/sharness/t0090-get.sh test/sharness/t0095-refs.sh test/sharness/t0100-name.sh test/sharness/t0101-iptb-name.sh test/sharness/t0110-gateway.sh test/sharness/t0111-gateway-writeable.sh test/sharness/t0112-gateway-cors.sh test/sharness/t0113-gateway-symlink.sh test/sharness/t0114-gateway-subdomains.sh test/sharness/t0115-gateway-dir-listing.sh test/sharness/t0116-gateway-cache.sh test/sharness/t0117-gateway-block.sh test/sharness/t0118-gateway-car.sh test/sharness/t0119-prometheus.sh test/sharness/t0120-bootstrap.sh test/sharness/t0121-bootstrap-iptb.sh test/sharness/t0125-twonode.sh test/sharness/t0130-multinode.sh test/sharness/t0131-multinode-client-routing.sh test/sharness/t0139-swarm-rcmgr.sh test/sharness/t0140-swarm.sh test/sharness/t0141-addfilter.sh test/sharness/t0142-testfilter.sh test/sharness/t0150-clisuggest.sh test/sharness/t0151-sysdiag.sh test/sharness/t0152-profile.sh test/sharness/t0160-resolve.sh test/sharness/t0165-keystore.sh test/sharness/t0170-legacy-dht.sh test/sharness/t0170-routing-dht.sh test/sharness/t0171-peering.sh test/sharness/t0175-provider.sh test/sharness/t0175-reprovider.sh test/sharness/t0175-strategic-provider.sh test/sharness/t0180-p2p.sh test/sharness/t0181-private-network.sh test/sharness/t0182-circuit-relay.sh test/sharness/t0183-namesys-pubsub.sh test/sharness/t0184-http-proxy-over-p2p.sh test/sharness/t0185-autonat.sh test/sharness/t0190-quic-ping.sh test/sharness/t0191-noise.sh test/sharness/t0200-unixfs-ls.sh test/sharness/t0210-tar.sh test/sharness/t0220-bitswap.sh test/sharness/t0221-graphsync.sh test/sharness/t0230-channel-streaming-http-content-type.sh test/sharness/t0231-channel-streaming.sh test/sharness/t0235-cli-request.sh test/sharness/t0236-cli-api-dns-resolve.sh test/sharness/t0240-republisher.sh test/sharness/t0250-files-api.sh test/sharness/t0251-files-flushing.sh test/sharness/t0252-files-gc.sh test/sharness/t0260-sharding.sh test/sharness/t0270-filestore.sh test/sharness/t0271-filestore-utils.sh test/sharness/t0272-urlstore.sh test/sharness/t0275-cid-security.sh test/sharness/t0276-cidv0v1.sh test/sharness/t0280-plugin-dag-jose.sh test/sharness/t0280-plugin-git.sh test/sharness/t0280-plugin-peerlog.sh test/sharness/t0280-plugin.sh test/sharness/t0290-cid.sh test/sharness/t0295-multibase.sh test/sharness/t0300-docker-image.sh test/sharness/t0301-docker-migrate.sh test/sharness/t0310-tracing.sh test/sharness/t0320-pubsub.sh test/sharness/t0321-pubsub-gossipsub.sh test/sharness/t0322-pubsub-http-rpc.sh test/sharness/t0400-api-no-gateway.sh test/sharness/t0401-api-browser-security.sh test/sharness/t0410-api-add.sh test/sharness/t0500-issues-and-regressions-offline.sh test/sharness/t0600-issues-and-regressions-online.sh test/sharness/t0700-remotepin.sh test/sharness/t0701-delegated-routing-reframe.sh test/sharness/aggregate test/sharness/clean-test-results test/sharness/deps test_sharness_deps test_sharness_short test_sharness_expensive cmd/ipfs-try-build cmd/ipfs-try-build-windows-386 cmd/ipfs-try-build-windows-amd64 cmd/ipfs-try-build-linux-arm cmd/ipfs-try-build-linux-arm64 cmd/ipfs-try-build-linux-386 cmd/ipfs-try-build-linux-amd64 cmd/ipfs-try-build-darwin-amd64 cmd/ipfs-try-build-darwin-arm64 cmd/ipfs-try-build-freebsd-386 cmd/ipfs-try-build-freebsd-amd64 cmd/ipfs-try-build-openbsd-386 cmd/ipfs-try-build-openbsd-amd64 cmd/ipfs-try-build-netbsd-386 cmd/ipfs-try-build-netbsd-amd64 cmd/ipfs-install build clean coverage distclean test test_short deps nofuse install install_unsupported uninstall supported help
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-darwin-arm64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-darwin-arm64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-darwin-arm64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-darwin-arm64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-darwin-arm64
+# automatic
+# | := 
+# automatic
+ 
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0023-shutdown.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0023-shutdown.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/bin/iptb: github.com/uss2022sayahi/kubo/test/dependencies/iptb check_go_version plugin/loader/preload.go
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := test/bin/iptb
+# automatic
+# * := 
+# automatic
+# < := github.com/uss2022sayahi/kubo/test/dependencies/iptb
+# automatic
+# + := github.com/uss2022sayahi/kubo/test/dependencies/iptb
+# automatic
+# % := 
+# automatic
+# ^ := github.com/uss2022sayahi/kubo/test/dependencies/iptb
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  recipe to execute (from 'test/bin/Rules.mk', line 33):
+	$(go-build-testdep)
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-linux-arm64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-linux-arm64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-linux-arm64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-linux-arm64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-linux-arm64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+supported:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Rules.mk', line 106):
+	@echo "Currently supported platforms:"
+	@for p in ${SUPPORTED_PLATFORMS}; do echo $$p; done
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-linux-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-linux-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+ 
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-linux-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-linux-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-linux-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+test/sharness/t0063-daemon-init.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0063-daemon-init.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0024-datastore-config.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0024-datastore-config.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0184-http-proxy-over-p2p.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0184-http-proxy-over-p2p.sh
+# automatic
+# * := 
+ 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.598723053
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+cmd/ipfs/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.602056375
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test/bin/Rules.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 00:20:21.662056182
+#  File has been updated.
+#  Successfully updated.
+
+# makefile (from 'cmd/ipfs/Rules.mk', line 29)
+cmd/ipfs-try-build-netbsd-amd64: GOOS = $(word 1,$(PLATFORM))
+# makefile (from 'cmd/ipfs/Rules.mk', line 28)
+cmd/ipfs-try-build-netbsd-amd64: PLATFORM = $(subst -, ,$(patsubst $<-try-build-%,%,$@))
+# makefile (from 'cmd/ipfs/Rules.mk', line 30)
+cmd/ipfs-try-build-netbsd-amd64: GOARCH = $(word 2,$(PLATFORM))
+cmd/ipfs-try-build-netbsd-amd64: cmd/ipfs check_go_version plugin/loader/preload.go ALWAYS
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := cmd/ipfs-try-build-netbsd-amd64
+# automatic
+# | := 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=11/32=34%, Rehash=0, Collisions=7/13=54%
+#  recipe to execute (from 'cmd/ipfs/Rules.mk', line 32):
+	GOOS=$(GOOS) GOARCH=$(GOARCH) $(go-try-build)
+
+github.com/ipfs/hang-fds:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0040-add-and-cat.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0040-add-and-cat.sh
+ 
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0322-pubsub-http-rpc.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0322-pubsub-http-rpc.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0030-mount.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0030-mount.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/t0082-repo-gc-auto.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0082-repo-gc-auto.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+ 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+test/sharness/deps: test/sharness/lib/sharness/sharness.sh test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/deps
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+
+test_sharness_short: test/sharness/aggregate
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+test/sharness/t0113-gateway-symlink.sh: test/bin/random test/bin/multihash test/bin/pollEndpoint test/bin/iptb test/bin/go-sleep test/bin/random-files test/bin/go-timeout test/bin/hang-fds test/bin/ma-pipe-unidir test/bin/cid-fmt test/bin/graphsync-get cmd/ipfs/ipfs test/sharness/clean-test-results test/sharness/lib/sharness/sharness.sh
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := test/sharness/t0113-gateway-symlink.sh
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/10=20%
+#  recipe to execute (from 'test/sharness/Rules.mk', line 32):
+	@echo "*** $@ ***"
+	@(cd $(@D) && ./$(@F)) 2>&1
+
+# files hash-table stats:
+# Load=239/1024=23%, Rehash=0, Collisions=107/2839=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (1) / strings = 402 / storage = 10032 B / avg = 24 B
+# current buf: size = 8162 B / used = 1892 B / count = 69 / avg = 27 B
+# other used: total = 8140 B / count = 333 / avg = 24 B
+# other free: total = 22 B / max = 22 B / min = 22 B / avg = 22 B
+
+# strcache performance: lookups = 3238 / hit rate = 87%
+ 
+# hash-table stats:
+# Load=402/8192=5%, Rehash=0, Collisions=158/3238=5%
+# Finished Make data base on Sat Aug  6 00:30:11 2022
+
+ 

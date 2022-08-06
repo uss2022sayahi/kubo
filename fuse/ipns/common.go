@@ -6,8 +6,8 @@ import (
 	nsys "github.com/ipfs/go-namesys"
 	path "github.com/ipfs/go-path"
 	ft "github.com/ipfs/go-unixfs"
-	"github.com/ipfs/kubo/core"
 	ci "github.com/libp2p/go-libp2p-core/crypto"
+	"github.com/uss2022sayahi/kubo/core"
 )
 
 // InitializeKeyspace sets the ipns record for the given key to

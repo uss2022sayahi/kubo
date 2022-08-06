@@ -12,8 +12,6 @@ import (
 	"github.com/testground/sdk-go/runtime"
 	"github.com/testground/sdk-go/sync"
 
-	bitswap "github.com/ipfs/go-bitswap"
-	bsnet "github.com/ipfs/go-bitswap/network"
 	block "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	datastore "github.com/ipfs/go-datastore"
@@ -26,6 +24,8 @@ import (
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/multiformats/go-multihash"
+	bitswap "github.com/uss2022sayahi/go-bitswap"
+	bsnet "github.com/uss2022sayahi/go-bitswap/network"
 )
 
 var (

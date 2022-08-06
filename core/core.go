@@ -5,7 +5,7 @@ Packages underneath core/ provide a (relatively) stable, low-level API
 to carry out most IPFS-related tasks.  For more details on the other
 interfaces and how core/... fits into the bigger IPFS picture, see:
 
-  $ godoc github.com/ipfs/go-ipfs
+	$ godoc github.com/ipfs/go-ipfs
 */
 package core
 
@@ -45,14 +45,14 @@ import (
 
 	"github.com/ipfs/go-namesys"
 	ipnsrp "github.com/ipfs/go-namesys/republisher"
-	"github.com/ipfs/kubo/core/bootstrap"
-	"github.com/ipfs/kubo/core/node"
-	"github.com/ipfs/kubo/core/node/libp2p"
-	"github.com/ipfs/kubo/fuse/mount"
-	"github.com/ipfs/kubo/p2p"
-	"github.com/ipfs/kubo/peering"
-	"github.com/ipfs/kubo/repo"
-	irouting "github.com/ipfs/kubo/routing"
+	"github.com/uss2022sayahi/kubo/core/bootstrap"
+	"github.com/uss2022sayahi/kubo/core/node"
+	"github.com/uss2022sayahi/kubo/core/node/libp2p"
+	"github.com/uss2022sayahi/kubo/fuse/mount"
+	"github.com/uss2022sayahi/kubo/p2p"
+	"github.com/uss2022sayahi/kubo/peering"
+	"github.com/uss2022sayahi/kubo/repo"
+	irouting "github.com/uss2022sayahi/kubo/routing"
 )
 
 var log = logging.Logger("core")

@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	util "github.com/ipfs/kubo/blocks/blockstoreutil"
-	"github.com/ipfs/kubo/tracing"
+	util "github.com/uss2022sayahi/kubo/blocks/blockstoreutil"
+	"github.com/uss2022sayahi/kubo/tracing"
 )
 
 type BlockAPI CoreAPI

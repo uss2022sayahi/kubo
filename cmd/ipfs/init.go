@@ -12,16 +12,16 @@ import (
 
 	path "github.com/ipfs/go-path"
 	unixfs "github.com/ipfs/go-unixfs"
-	assets "github.com/ipfs/kubo/assets"
-	oldcmds "github.com/ipfs/kubo/commands"
-	core "github.com/ipfs/kubo/core"
-	"github.com/ipfs/kubo/core/commands"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
+	assets "github.com/uss2022sayahi/kubo/assets"
+	oldcmds "github.com/uss2022sayahi/kubo/commands"
+	core "github.com/uss2022sayahi/kubo/core"
+	"github.com/uss2022sayahi/kubo/core/commands"
+	fsrepo "github.com/uss2022sayahi/kubo/repo/fsrepo"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
 	files "github.com/ipfs/go-ipfs-files"
 	options "github.com/ipfs/interface-go-ipfs-core/options"
-	config "github.com/ipfs/kubo/config"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 const (

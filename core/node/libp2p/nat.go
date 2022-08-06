@@ -3,8 +3,8 @@ package libp2p
 import (
 	"time"
 
-	config "github.com/ipfs/kubo/config"
 	"github.com/libp2p/go-libp2p"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 var NatPortMap = simpleOpt(libp2p.NATPortMap())

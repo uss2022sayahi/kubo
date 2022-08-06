@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	config "github.com/ipfs/kubo/config"
 	"github.com/libp2p/go-libp2p"
 	rcmgr "github.com/libp2p/go-libp2p-resource-manager"
+	config "github.com/uss2022sayahi/kubo/config"
 
 	"github.com/wI2L/jsondiff"
 )

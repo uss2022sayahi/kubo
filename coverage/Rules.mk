@@ -1,6 +1,6 @@
 include mk/header.mk
 
-GOCC ?= go
+GOCC ?= go1.17.13
 
 $(d)/coverage_deps: $$(DEPS_GO)
 	rm -rf $(@D)/unitcover && mkdir $(@D)/unitcover

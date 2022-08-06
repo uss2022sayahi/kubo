@@ -1,4 +1,4 @@
-module github.com/ipfs/kubo
+module github.com/uss2022sayahi/kubo
 
 require (
 	bazil.org/fuse v0.0.0-20200117225306-7b5117fecadc
@@ -15,7 +15,6 @@ require (
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/gabriel-vasile/mimetype v1.4.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/ipfs/go-bitswap v0.7.0
 	github.com/ipfs/go-block-format v0.0.3
 	github.com/ipfs/go-blockservice v0.3.0
 	github.com/ipfs/go-cid v0.2.0
@@ -120,6 +119,7 @@ require (
 	github.com/benbjohnson/clock v1.3.0
 	github.com/ipfs/go-delegated-routing v0.3.0
 	github.com/ipfs/go-log/v2 v2.5.1
+	github.com/uss2022sayahi/go-bitswap v0.7.1-0.20220806042936-55a5d4b5eef9
 )
 
 require (

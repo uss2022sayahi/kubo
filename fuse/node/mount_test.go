@@ -13,9 +13,9 @@ import (
 
 	"context"
 
-	core "github.com/ipfs/kubo/core"
-	ipns "github.com/ipfs/kubo/fuse/ipns"
-	mount "github.com/ipfs/kubo/fuse/mount"
+	core "github.com/uss2022sayahi/kubo/core"
+	ipns "github.com/uss2022sayahi/kubo/fuse/ipns"
+	mount "github.com/uss2022sayahi/kubo/fuse/mount"
 
 	ci "github.com/libp2p/go-libp2p-testing/ci"
 )

@@ -28,7 +28,7 @@ handled for you by writes to the request body blocking.)
 ## API Transports
 
 Like with everything else, IPFS aims to be flexible regarding the API transports.
-Currently, the [kubo](https://github.com/ipfs/kubo) implementation supports
+Currently, the [kubo](https://github.com/uss2022sayahi/kubo) implementation supports
 both an in-process API and an HTTP API. More can be added easily, by mapping the
 API functions over a transport. (This is similar to how gRPC is also _mapped on
 top of transports_, like HTTP).
@@ -63,7 +63,7 @@ In HTTP, our API layering uses a REST-like mapping, where:
 
 There is a "standard IPFS API" which is currently defined as "all the commands
 exposed by the kubo implementation". There are auto-generated [API Docs](https://ipfs.io/docs/api/).
-You can Also see [a listing here](https://github.com/ipfs/kubo/blob/94b832df861728c65e912935641d08880c341e0a/core/commands/root.go#L96-L130), or get a list of
+You can Also see [a listing here](https://github.com/uss2022sayahi/kubo/blob/94b832df861728c65e912935641d08880c341e0a/core/commands/root.go#L96-L130), or get a list of
 commands by running `ipfs commands` locally.
 
 ## Implementing bindings for the HTTP API
@@ -80,8 +80,8 @@ To date, we have two different HTTP API clients:
 
 - [js-ipfs-api](https://github.com/ipfs/js-ipfs-api) - simple javascript
   wrapper -- best to look at
-- [kubo/commands/http](https://github.com/ipfs/kubo/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands/http) -
-  generalized transport based on the [command definitions](https://github.com/ipfs/kubo/tree/916f987de2c35db71815b54bbb9a0a71df829838/core/commands)
+- [kubo/commands/http](https://github.com/uss2022sayahi/kubo/tree/916f987de2c35db71815b54bbb9a0a71df829838/commands/http) -
+  generalized transport based on the [command definitions](https://github.com/uss2022sayahi/kubo/tree/916f987de2c35db71815b54bbb9a0a71df829838/core/commands)
 
 The Go implementation is good to answer harder questions, like how is multipart
 handled, or what headers should be set in edge conditions. But the javascript
@@ -102,7 +102,7 @@ Currently, node-ipfs-api has three main files
 
 Despite all the generalization spoken about above, the IPFS API is actually very
 simple. You can inspect all the requests made with `nc` and the `--api` option
-(as of [this PR](https://github.com/ipfs/kubo/pull/1598), or `0.3.8`):
+(as of [this PR](https://github.com/uss2022sayahi/kubo/pull/1598), or `0.3.8`):
 
 ```
 > nc -l 5002 &

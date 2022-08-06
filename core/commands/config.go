@@ -9,13 +9,13 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	"github.com/ipfs/kubo/repo"
-	"github.com/ipfs/kubo/repo/fsrepo"
+	"github.com/uss2022sayahi/kubo/core/commands/cmdenv"
+	"github.com/uss2022sayahi/kubo/repo"
+	"github.com/uss2022sayahi/kubo/repo/fsrepo"
 
 	"github.com/elgris/jsondiff"
 	cmds "github.com/ipfs/go-ipfs-cmds"
-	config "github.com/ipfs/kubo/config"
+	config "github.com/uss2022sayahi/kubo/config"
 )
 
 // ConfigUpdateOutput is config profile apply command's output
@@ -152,6 +152,7 @@ Set the value of the 'Datastore.Path' key:
 // A pattern matches a part if and only if the pattern is "*" or the lowercase pattern equals the lowercase part.
 //
 // For example:
+//
 //	matchesGlobPrefix("foo.bar", []string{"*", "bar", "baz"}) returns true
 //	matchesGlobPrefix("foo.bar.baz", []string{"*", "bar"}) returns true
 //	matchesGlobPrefix("foo.bar", []string{"baz", "*"}) returns false

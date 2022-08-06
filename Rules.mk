@@ -4,7 +4,7 @@ COVERAGE :=
 DISTCLEAN :=
 TEST :=
 TEST_SHORT :=
-GOCC ?= go
+GOCC ?= go1.17.13
 PROTOC ?= protoc
 
 all: help    # all has to be first defined target

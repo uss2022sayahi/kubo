@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"sort"
 
-	version "github.com/ipfs/kubo"
-	core "github.com/ipfs/kubo/core"
-	coreapi "github.com/ipfs/kubo/core/coreapi"
+	version "github.com/uss2022sayahi/kubo"
+	core "github.com/uss2022sayahi/kubo/core"
+	coreapi "github.com/uss2022sayahi/kubo/core/coreapi"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
 	options "github.com/ipfs/interface-go-ipfs-core/options"

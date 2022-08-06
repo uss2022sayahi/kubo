@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"syscall"
 
-	commands "github.com/ipfs/kubo/commands"
-	core "github.com/ipfs/kubo/core"
-	coreapi "github.com/ipfs/kubo/core/coreapi"
-	corehttp "github.com/ipfs/kubo/core/corehttp"
-	fsrepo "github.com/ipfs/kubo/repo/fsrepo"
+	commands "github.com/uss2022sayahi/kubo/commands"
+	core "github.com/uss2022sayahi/kubo/core"
+	coreapi "github.com/uss2022sayahi/kubo/core/coreapi"
+	corehttp "github.com/uss2022sayahi/kubo/core/corehttp"
+	fsrepo "github.com/uss2022sayahi/kubo/repo/fsrepo"
 
 	fsnotify "github.com/fsnotify/fsnotify"
 	files "github.com/ipfs/go-ipfs-files"

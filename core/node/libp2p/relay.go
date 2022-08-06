@@ -1,11 +1,11 @@
 package libp2p
 
 import (
-	"github.com/ipfs/kubo/config"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p/p2p/host/autorelay"
 	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/relay"
+	"github.com/uss2022sayahi/kubo/config"
 )
 
 func RelayTransport(enableRelay bool) func() (opts Libp2pOpts, err error) {

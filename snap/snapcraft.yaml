@@ -30,7 +30,7 @@ parts:
     plugin: go
     # keep me up to date with the go version that kubo expects to be built with.
     go-channel: 1.18/stable
-    go-importpath: github.com/ipfs/kubo
+    go-importpath: github.com/uss2022sayahi/kubo
     build-packages:
         - build-essential
 

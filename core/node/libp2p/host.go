@@ -11,8 +11,8 @@ import (
 	record "github.com/libp2p/go-libp2p-record"
 	routedhost "github.com/libp2p/go-libp2p/p2p/host/routed"
 
-	"github.com/ipfs/kubo/core/node/helpers"
-	"github.com/ipfs/kubo/repo"
+	"github.com/uss2022sayahi/kubo/core/node/helpers"
+	"github.com/uss2022sayahi/kubo/repo"
 
 	"go.uber.org/fx"
 )

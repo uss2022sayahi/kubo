@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	cmds "github.com/ipfs/go-ipfs-cmds"
-	"github.com/ipfs/kubo/core/commands/cmdenv"
-	ke "github.com/ipfs/kubo/core/commands/keyencode"
 	"github.com/libp2p/go-libp2p-core/peer"
 	record "github.com/libp2p/go-libp2p-record"
+	"github.com/uss2022sayahi/kubo/core/commands/cmdenv"
+	ke "github.com/uss2022sayahi/kubo/core/commands/keyencode"
 )
 
 type ipnsPubsubState struct {

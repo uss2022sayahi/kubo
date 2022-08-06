@@ -3,9 +3,9 @@ package node
 import (
 	"context"
 
-	"github.com/ipfs/kubo/peering"
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/uss2022sayahi/kubo/peering"
 	"go.uber.org/fx"
 )
 
