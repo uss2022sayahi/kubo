@@ -119,7 +119,7 @@ require (
 	github.com/benbjohnson/clock v1.3.0
 	github.com/ipfs/go-delegated-routing v0.3.0
 	github.com/ipfs/go-log/v2 v2.5.1
-	github.com/uss2022sayahi/go-bitswap v0.7.1-0.20220806042936-55a5d4b5eef9
+	github.com/uss2022sayahi/go-bitswap v0.7.1-0.20220809182052-33311753214b
 )
 
 require (
